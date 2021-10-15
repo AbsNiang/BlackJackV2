@@ -62,7 +62,6 @@ public class Main {
                     if (compNumTotal <= 17) {
                         System.out.println("The computer drew a card");
                         compNumTotal += randomNumberGen();
-                        System.out.println("The computers value in-hand is: " + compNumTotal);
                     } else {
                         compDrawing = false;
                     }
